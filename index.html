@@ -1,10 +1,50 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/scripts.js"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>Height Checker</title>
   </head>
   <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Height Checker</h1>
+        <p>Input your height and see what rides you can ride!</p>
+        <div class="blanks">
+          <form>
+            <label for="height">Enter Height</label>
+            <input id="height" type="text" name="name" value="">
+            <button type="submit" class="btn btn-primary">Submit!</button>
+          </form>
+        </div>
+      </div>
 
+      <div class="rides">
+        <div class="coaster">
+          <h1>Coaster of Death</h1>
+          <img src="img/coaster.jpg" alt="picture of roller coaster" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="ferris">
+          <h1>Ferris Wheel</h1>
+          <img src="img/ferris.jpg" alt="picture of ferris wheel" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="kiddy">
+          <h1>Kiddie Ride</h1>
+          <img src="img/kiddy.jpg" alt="picture of a kiddy ride" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
